@@ -1,15 +1,18 @@
 import React from 'react'
 import './Home.css'
 import Header from '../../Components/Header/Header'
-import Footer from '../../Components/Footer/Footer'
 
+import Banner from '../../Components/Banner/Banner'
+
+import Footer from '../../Components/Footer/Footer';
 const Home = () => {
   return (
     <>
       <Header />
-      <Footer/>
+      <Banner />
+      <Footer />
     </>
-  )
+  );
 }
 
 export default Home

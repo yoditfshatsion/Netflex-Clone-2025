@@ -13,7 +13,7 @@ const Footer = () => {
           <YouTubeIcon />
         </div>
         <div className="footer_data">
-          {/* <div> */}
+         
           <div>
             <ul>
               <li>Audio Description</li>
@@ -28,8 +28,7 @@ const Footer = () => {
               <li>Cookie Preference</li>
             </ul>
           </div>
-          {/* </div> */}
-          {/* </div> */}
+         
 
           <div>
             <ul>
@@ -47,7 +46,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* </div>   */}
+   
 
         <div className="copy_write">© 1997 - 2025 Netflix, Inc.</div>
       </div>
