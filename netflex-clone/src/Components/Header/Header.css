@@ -25,7 +25,7 @@ z-index: 1;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background-color: yellow; */
+     /* background-color: yellow;  */
 }
 
 .header_left ul{
@@ -47,8 +47,16 @@ z-index: 1;
     }
 } */
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 765px) {
     .header_container ul li:not(:first-child) {
         display: none !important;
     }
 }
+
+@media screen and (min-width: 765px){
+    .header_right ul li:first-child {
+        display: none;
+    }
+}
+
+    

@@ -25,23 +25,23 @@ const Footer = () => {
             <ul>
               <li>Help Centre</li>
               <li> Jobs</li>
-              <li>Cookie Preference</li>
+            <li>Cookie Preference</li>
             </ul>
           </div>
          
 
           <div>
             <ul>
-              <li>Gift Cards</li>
-              <li>Terms of Use</li>
-              <li>Corporate Information</li>
+                <li>Gift Cards</li>
+               <li>Terms of Use</li>
+               <li>Corporate Information</li>
             </ul>
           </div>
           <div>
             <ul>
-              <li>Media Centre</li>
-              <li> Privacy</li>
-              <li>Contact Us</li>
+          <li>Media Centre</li>
+           <li> Privacy</li>
+           <li>Contact Us</li>
             </ul>
           </div>
         </div>
