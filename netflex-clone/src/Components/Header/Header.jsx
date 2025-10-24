@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css' 
-import SearchIcon from "@mui/icons-material/Search";
-console.log("SearchIcon");
+import PageviewIcon from "@mui/icons-material/Pageview";
+console.log(PageviewIcon);
 
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 import AccountBoxIcon from "@mui/icons-material/AccountBox";
@@ -29,14 +29,27 @@ const Header = () => {
         <div className="header_right">
           <ul>
             <li>
-              <SearchIcon style={{ color: "white"}}/>
-            </li>
-            <li>
               <NotificationsNoneIcon />
             </li>
             <li>
-              <AccountBoxIcon />
+              <PageviewIcon fontSize="large" />
             </li>
+
+            <li>
+              <NotificationsNoneIcon
+                style={{
+                  // fontSize: 30, // makes it bigger
+                  position: "relative",
+                  top: "4px", // moves it slightly lower
+                  color: "white", // optional: set color
+                }}
+              />
+            </li>
+
+            <li>
+              <AccountBoxIcon fontSize="large" />
+            </li>
+
             <li>
               <ArrowDropDownIcon />
             </li>

@@ -38,6 +38,7 @@ z-index: 1;
 .header_right ul{
     display: flex;
      justify-content: space-between;
+     gap: 20px;
      
 }
 

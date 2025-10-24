@@ -1,5 +1,5 @@
 {
-  "homepage": "https://yoditfshatsion.github.io/Netflex-Clone-2025",
+  "homepage": "https://yoditfshatsion.github.io/Netflex-Clone-2025/assets/index-KC6uRleR.js",
   "name": "netflex-clone",
   "private": true,
   "version": "0.0.0",
@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
@@ -16,8 +16,8 @@
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
     "@fontsource/montserrat": "^5.2.6",
-    "@mui/icons-material": "^7.3.2",
-    "@mui/material": "^7.3.2",
+    "@mui/icons-material": "^7.3.4",
+    "@mui/material": "^7.3.4",
     "axios": "^1.11.0",
     "movie-trailer": "^3.2.2",
     "react": "^19.1.1",
